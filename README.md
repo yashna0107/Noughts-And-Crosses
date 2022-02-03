@@ -8,5 +8,5 @@ When the game is over, we change states again into our game over state. Here we 
 Selecting the Restart Button sends us back to our starting state and we are waiting to play, with our instructional text and buttons for our player to choose a side.
 
 Future Work includes the follwoing:
-Adding music
+Adding music <br>
 Multiplayer options
