@@ -23,11 +23,13 @@ public class GameController : MonoBehaviour
     public Text gameOverText;
     public GameObject restartButton;
     public GameObject startInfo;
+    public Button quitGame;
 
     public Player playerX;
     public Player playerO;
     public PlayerColor activePlayerColor;
     public PlayerColor inactivePlayerColor;
+
 
 
     private string playerSide;
@@ -207,5 +209,10 @@ public class GameController : MonoBehaviour
     {
         playerX.panel.color = inactivePlayerColor.panelColor;
         playerO.panel.color = inactivePlayerColor.panelColor;
+    }
+
+   public  void QuitGame()
+    {
+        Application.Quit();
     }
 }
